@@ -27,8 +27,8 @@ h2{
 
 .img-circle{
   border-radius: 50%;
-  width: 240px;
-  padding: 16px 16px;
+  width: 20%;
+  padding: 1% 1%;
 }
 
 .text-center {
@@ -40,7 +40,8 @@ h2{
   padding: 40px;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
   border-radius: 4px;
-  margin: 20px 160px;
+  /* margin: 20px 160px; */
+  margin: 2% 5%;
   text-align: center;
 }
 
@@ -50,7 +51,7 @@ h2{
 
 .list-inline > li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0% 5%;
 }
 
 .list-inline {
@@ -86,35 +87,15 @@ p{
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
-  .card-white {
-    margin: 24px 24px;
-  }
 }
 
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
-  .img-circle{
-    width: 160px;
-  }
 }
 
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
-
-  .img-circle{
-    width: 80px;
-  }
-
-  .list-inline > li {
+  /* .list-inline > li {
     padding: 0px 10px;
-  }
+  } */
 }
